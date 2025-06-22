@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
 
 header {
     background-color: yellow;
+    padding: 20px 200px;
+
+}
+
+.headertop {
+    background-color: mediumpurple;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 
+}
+
+nav {
+    padding: 20px 0 0 0 ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 100px;
+
+}
+
+#aanpakken {
+    display: flex;
+    gap: 50px;
+}
+
+#boek {
+    display: flex;
+    width: 800px;
+}
+
+#boek div {
+    flex: 1;
 }
