@@ -6,16 +6,25 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D5CDDD;
+}
+
+h1{
+    font-size: xx-large;
 }
 
 header {
-    background-color: yellow;
+    background-color: #9B78B5 ;
     padding: 20px 200px;
+    color: #e7e0ee;
 
 }
 
 .headertop {
-    background-color: mediumpurple;
+    background-color: #734E8F;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +38,9 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    align-self: center;
+
+    width: 70vw;
     gap: 100px;
 
 }
