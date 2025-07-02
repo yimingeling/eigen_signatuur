@@ -39,7 +39,7 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-
+    padding-top: 100px;
     width: 70vw;
     gap: 100px;
 
@@ -48,6 +48,11 @@ main {
 #aanpakken {
     display: flex;
     gap: 50px;
+
+}
+
+#aanpakken section{
+    flex: 1;
 }
 
 #boek {
